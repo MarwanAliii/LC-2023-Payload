@@ -126,7 +126,7 @@ void loop()
         pRemoteCharacteristic->writeValue(value, sizeof(value));  
         Serial.println("Sent!");
         i++;
-        delay(100);
+        delay(1000);
       }
     }
     else if(doScan)
